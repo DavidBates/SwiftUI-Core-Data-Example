@@ -28,6 +28,7 @@
 		BF0EBE9C24D91AF800858E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF0EBE9E24D91AF800858E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0EBEA824D91E1B00858E4F /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BF0EBEAC24DA72A000858E4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		BF0EBE8124D91AF400858E4F = {
 			isa = PBXGroup;
 			children = (
+				BF0EBEAC24DA72A000858E4F /* README.md */,
 				BF0EBE8C24D91AF400858E4F /* coredatademo */,
 				BF0EBE8B24D91AF400858E4F /* Products */,
 			);
