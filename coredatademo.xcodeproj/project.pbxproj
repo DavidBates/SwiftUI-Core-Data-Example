@@ -14,6 +14,7 @@
 		BF0EBE9724D91AF800858E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0EBE9624D91AF800858E4F /* Assets.xcassets */; };
 		BF0EBE9A24D91AF800858E4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0EBE9924D91AF800858E4F /* Preview Assets.xcassets */; };
 		BF0EBE9D24D91AF800858E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0EBE9B24D91AF800858E4F /* LaunchScreen.storyboard */; };
+		BF0EBEAA24D91E1B00858E4F /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0EBEA824D91E1B00858E4F /* Person+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BF0EBE9924D91AF800858E4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF0EBE9C24D91AF800858E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF0EBE9E24D91AF800858E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0EBEA824D91E1B00858E4F /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		BF0EBE8C24D91AF400858E4F /* coredatademo */ = {
 			isa = PBXGroup;
 			children = (
+				BF0EBEA824D91E1B00858E4F /* Person+CoreDataClass.swift */,
 				BF0EBE8D24D91AF400858E4F /* AppDelegate.swift */,
 				BF0EBE8F24D91AF500858E4F /* SceneDelegate.swift */,
 				BF0EBE9424D91AF500858E4F /* ContentView.swift */,
@@ -151,6 +154,7 @@
 			files = (
 				BF0EBE8E24D91AF400858E4F /* AppDelegate.swift in Sources */,
 				BF0EBE9024D91AF500858E4F /* SceneDelegate.swift in Sources */,
+				BF0EBEAA24D91E1B00858E4F /* Person+CoreDataClass.swift in Sources */,
 				BF0EBE9524D91AF500858E4F /* ContentView.swift in Sources */,
 				BF0EBE9324D91AF500858E4F /* coredatademo.xcdatamodeld in Sources */,
 			);
@@ -290,14 +294,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"coredatademo/Preview Content\"";
-				DEVELOPMENT_TEAM = KK49Q29RF6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = coredatademo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ozmo.coredatademo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidbates.coredatademo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,14 +314,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"coredatademo/Preview Content\"";
-				DEVELOPMENT_TEAM = KK49Q29RF6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = coredatademo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ozmo.coredatademo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidbates.coredatademo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
